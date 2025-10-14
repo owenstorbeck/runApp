@@ -38,7 +38,7 @@ function analyzeRun() {//main take in of the run you took
     
     feedback += "Pro Tip: Always mix in stretching and core before and after a run";//extra feedback
     const quote = getRandomQuote();//random quote getter which gets what is up top
-    feedback += '\n\n Quote to live by: ${quote}';
     feedbackText.textContent = feedback;
     quoteText.textContent = '"${quote}"';
+
 }
