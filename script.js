@@ -26,7 +26,7 @@ function analyzeRun() {//main take in of the run you took
     return;
   }
     const pace = (minutes / miles).toFixed(2);
-    let feedback = ' Your pace was ${pace} min/mile. ';//gets your average and includes the run feeling
+    let feedback = `Your pace was ${pace} min/mile. `;//gets your average and includes the run feeling
 
     if (feeling === "easy") {//main three feelings, just to keep it simple
     feedback += "You’re cruising! Consider increasing distance or adding intervals. ";
@@ -39,8 +39,9 @@ function analyzeRun() {//main take in of the run you took
     feedback += "\nPro Tip: Always mix in stretching and core before and after a run.";//extra feedback
     const quote = getRandomQuote();//random quote getter which gets what is up top
     feedbackText.textContent = feedback;
-    quoteText.textContent = ' "${quote}" ';
+    quoteText.textContent = ` "${quote}" `;
 
 }
+
 
 
