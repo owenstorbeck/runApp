@@ -36,9 +36,10 @@ function analyzeRun() {//main take in of the run you took
     feedback += "Tough run. Make sure to hydrate and consider a recovery day. ";
   }
     
-    feedback += "Pro Tip: Always mix in stretching and core before and after a run";//extra feedback
+    feedback += "\nPro Tip: Always mix in stretching and core before and after a run.";//extra feedback
     const quote = getRandomQuote();//random quote getter which gets what is up top
     feedbackText.textContent = feedback;
     quoteText.textContent = '"${quote}"';
 
 }
+
