@@ -10,7 +10,7 @@ const quotes = [//the quotes I included
 
 function getRandomQuote() {
     const index = Math.floor(Math.random() * quotes.length);
-    return quotes.index;
+    return quotes[index];
 }
 
 function analyzeRun() {//main take in of the run you took
@@ -42,6 +42,7 @@ function analyzeRun() {//main take in of the run you took
     quoteText.textContent = ` "${quote}" `;
 
 }
+
 
 
 
