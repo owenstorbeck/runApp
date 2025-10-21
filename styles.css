@@ -24,6 +24,34 @@ layout{
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
+.side-links {
+  font-size: 0.9rem;
+  text-align: left;
+}
+
+.side-links h3 {
+  margin-bottom: 0.5rem;
+  color: #007bff;
+}
+
+.side-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.side-links li {
+  margin-bottom: 0.5rem;
+}
+
+.side-links a {
+  text-decoration: none;
+  color: #333;
+}
+
+.side-links a:hover {
+  color: #007bff;
+}
+
 .app {
   background: white;
   padding: 2rem;
@@ -85,4 +113,5 @@ button {
   color: #007bff;
   border-left: 3px solid #007bff;
   padding-left: 1rem;
+
 }
